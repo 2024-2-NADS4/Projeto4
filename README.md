@@ -8,9 +8,10 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes:<a href="">Luca Filgiola Silvestri</a>, <a href="">Melissa Lequipe Lecona</a>, <a href="">Nayan Pinho de Oliveira</a>, <a href="">Nicolle Maria Gonçalves Firminio</a>,<a href="">Jean Costa</a>,<a href="">Thiago Dias</a>.
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/edsonbarbero/">Edson Barbero</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>,<a href="https://www.linkedin.com/in/lucymari/">Luci Mari Tabuti</a>,<a href="https://www.linkedin.com/in/eduardo-savino-gomes/">Eduardo Savino Gomes</a>,<a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>.
+
 
 ## Descrição
 
@@ -19,13 +20,15 @@
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
+<br>O objetivo do Projeto Family Care é desenvolver uma solução tecnológica para aprimorar a comunicação entre cuidadores de idosos e seus familiares, com foco nas necessidades das agências de cuidadores. A proposta inclui a criação de um aplicativo para familiares e um sistema de software para a agência, ambos projetados para aumentar a transparência e facilitar o gerenciamento do atendimento.
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+<br> Com essa solução, os familiares poderão fazer comentários em tempo real sobre o atendimento e acompanhar registros atualizados dos cuidadores sobre o bem-estar do idoso. Buscando fortalecer a relação de confiança entre agência e cliente, promovendo um atendimento mais próximo, transparente e humanizado.
+
+## Funcionalidades
+
+* Ser um software que integra a comunicação entre agência, cuidadores e familiares
+* Transparência e Confiança na sua comunicação com cuidadores e familiares atendendo diretamente as suas necessidades, promovendo confiança e lealdade entre os clientes e a agências.
+* Eficiência operacional, centralização de informações e atualizações feitas de forma rápida e acessível. O Family Care é um software que reduz o tempo gasto pelos cuidadores com comunicações repetitivas, permitindo que se concentrem mais no cuidado direto ao idoso.
 
 ## 🛠 Estrutura de pastas
 
