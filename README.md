@@ -16,7 +16,7 @@
 ## Descrição
 
 <p align="center">
-<img src=<img src="imagens/Logo_FAMILY_CARE-logo-blue.png" alt="Logo do Family Care" border="0">
+<img src=<img src="imagens/Logo.png" alt="Logo do Family Care" border="0">
 </p>
 
 
