@@ -16,7 +16,7 @@
 ## Descrição
 
 <p align="center">
-<img src=<img src="imagens/Logo_Projeto_Family_Care.png" alt="Descrição da Imagem" width="300"/>
+<img src=<img src="imagens/Logo_FAMILY_CARE-logo-blue.png" alt="Descrição da Imagem" width="300"/>
 </p>
 
 
