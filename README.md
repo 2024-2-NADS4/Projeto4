@@ -34,17 +34,17 @@
 ## Capturas de Tela
 
 ### Tela Chat
-![Tela Chat](./imagens/chatTela.png)
+![Tela Chat](./imagens/chatTela.jpg)
   <img src="imagens/chatTela.png" alt="chatTela" width="300"/>
 
 ### Tela de Medicamentos
-![Tela de Medicamentos](./imagens/screenshots/medicamentoTela.png)
+![Tela de Medicamentos](./imagens/screenshots/medicamentoTela.jpg)
 
 ### Tela de Relatórios
-![Tela de Relatórios](./imagens/screenshots/avaliarTela.png)
+![Tela de Relatórios](./imagens/screenshots/avaliarTela.jpg)
 
 ### Tela do Calendário
-![Tela do Calendário](imagens/screenshots/calendarioTela.png)
+![Tela do Calendário](imagens/screenshots/calendarioTela.jpg)
 
 ## 🛠 Estrutura de pastas
 
