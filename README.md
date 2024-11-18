@@ -34,7 +34,8 @@
 ## Capturas de Tela
 
 ### Tela Chat
-![Tela Chat](./imagens/screenshots/chatTela.png)
+![Tela Chat](./imagens/chatTela.png)
+  <img src="imagens/chatTela.png" alt="chatTela" width="300"/>
 
 ### Tela de Medicamentos
 ![Tela de Medicamentos](./imagens/screenshots/medicamentoTela.png)
