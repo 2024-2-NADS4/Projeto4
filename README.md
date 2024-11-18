@@ -30,19 +30,20 @@
 - Integração em tempo real entre usuários
 - Transparência e confiança na comunicação
 - Redução de tempo em comunicações repetitivas
+
 ## Capturas de Tela
 
-### Tela Inicial
-![Tela Inicial](imagens/screenshots/chatTela.png)
+### Tela Chat
+<Image source={require('imagens/screenshots/chatTela.png')} />
 
 ### Tela de Medicamentos
-![Tela de Medicamentos](imagens/screenshots/medicamentoTela.png)
+<Image source={require('imagens/screenshots/medicamentoTela.png')} />
 
 ### Tela de Relatórios
-![Tela de Relatórios](imagens/screenshots/avaliarTela.png)
+<Image source={require('./imagens/screenshots/avaliarTela.png')} />
 
 ### Tela do Calendário
-![Tela do Calendário](./imagens/screenshots/calendarioTela.png)
+<Image source={require('./imagens/screenshots/calendarioTela.png')} />
 
 
 ## 🛠 Estrutura de pastas
