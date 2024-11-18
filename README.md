@@ -31,17 +31,16 @@
 - Transparência e confiança na comunicação
 - Redução de tempo em comunicações repetitivas
 
-## Capturas de Tela
-
 
 ### Tela Inicial, Tela de Medicamentos e Tela de Relatórios
+## Capturas de Tela
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="./imagens/screenshots/chatTela.png" alt="chat Tela" width="300"/>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 10px;">
+  <img src="./imagens/screenshots/chatTela.jpg" alt="Chat Tela" width="300" />
   <img src="./imagens/screenshots/avaliarTela.jpg" alt="Avaliar Tela" width="300" />
   <img src="./imagens/screenshots/medicamentoTela.jpg" alt="Tela de Medicamentos" width="300" />
   <img src="./imagens/screenshots/avaliarTela.jpg" alt="Avaliar Relatórios" width="300" />
-  <img src="imagens/screenshots/calendarioTela.jpg" alt="Calendario" width="300" />
+  <img src="./imagens/screenshots/calendarioTela.jpg" alt="Calendário" width="300" />
 </div>
 
 
