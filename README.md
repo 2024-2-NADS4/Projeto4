@@ -25,12 +25,25 @@
 <br>O Projeto Family Care é desenvolver uma solução tecnológica para aprimorar a comunicação entre cuidadores de idosos e seus familiares, com foco nas necessidades das agências de cuidadores. A proposta inclui a criação de um aplicativo para familiares e um sistema de software para a agência, ambos projetados para aumentar a transparência e facilitar o gerenciamento do atendimento.
 
 <br> Com essa solução, os familiares poderão fazer comentários em tempo real sobre o atendimento e acompanhar registros atualizados dos cuidadores sobre o bem-estar do idoso. Buscando fortalecer a relação de confiança entre agência e cliente, promovendo um atendimento mais próximo, transparente e humanizado.
-
 ## Funcionalidades
 
-* Ser um software que integra a comunicação entre agência, cuidadores e familiares
-* Transparência e Confiança na sua comunicação com cuidadores e familiares atendendo diretamente as suas necessidades, promovendo confiança e lealdade entre os clientes e a agências.
-* Eficiência operacional, centralização de informações e atualizações feitas de forma rápida e acessível. O Family Care é um software que reduz o tempo gasto pelos cuidadores com comunicações repetitivas, permitindo que se concentrem mais no cuidado direto ao idoso.
+- Integração em tempo real entre usuários
+- Transparência e confiança na comunicação
+- Redução de tempo em comunicações repetitivas
+
+## Capturas de Tela
+
+### Tela Inicial
+![Tela Inicial](./imagens/screenshots/chatTela.png)
+
+### Tela de Medicamentos
+![Tela de Medicamentos](./imagens/screenshots/medicamentoTela.png)
+
+### Tela de Relatórios
+![Tela de Relatórios](./imagens/screenshots/avaliarTela.png)
+
+### Tela do calendário
+![calendario Tela](./imagens/screenshots/calendarioTela.png)
 
 ## 🛠 Estrutura de pastas
 
