@@ -14,9 +14,9 @@
 
 
 ## Descrição
-
 <p align="center">
-  <img src="imagens/logo_familyCare.png" alt="Descrição da Imagem" width="300"/>
+  <a href= "https://family-care-one.vercel.app/">
+  <img src="imagens/logo_familyCare.png" alt="Descrição da Imagem" width="300"/></a>
 </p>
 
 
@@ -26,6 +26,7 @@
 
 <br> Com essa solução, os familiares poderão fazer comentários em tempo real sobre o atendimento e acompanhar registros atualizados dos cuidadores sobre o bem-estar do idoso. Buscando fortalecer a relação de confiança entre agência e cliente, promovendo um atendimento mais próximo, transparente e humanizado.
 
+  <a href= "https://family-care-one.vercel.app/"><p> Conheça a nossa Empresa</p></a>
 
 ## Software da Agência - Funcionalidades
 
