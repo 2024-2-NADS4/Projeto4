@@ -27,21 +27,18 @@
 <br> Com essa solução, os familiares poderão fazer comentários em tempo real sobre o atendimento e acompanhar registros atualizados dos cuidadores sobre o bem-estar do idoso. Buscando fortalecer a relação de confiança entre agência e cliente, promovendo um atendimento mais próximo, transparente e humanizado.
 
 
-## Software da Agência
-## Funcionalidades
+## Software da Agência - Funcionalidades
 
 - Gestão de Cuidadores: Percentual de cuidadores ativos enviando relatórios.
 - Rendimento Individual: Gráfico ou ranking com cuidadores que geraram mais relatórios ou tiveram feedback positivo.
 - Gráfico de palavras mais recorrentes nos relatórios, dividido entre positivas e negativas.
 - Sugestão de cuidadores baseada em suas especialidades
 
-  <img src="./imagens/Dashboard_graficos.png" alt="Chat Tela" width="300" />
+  <img src="./imagens/Dashboard_graficos.png" alt="Chat Tela" width="600" />
   
 
-## Capturas de Tela
-### Tela Inicial, Tela de Medicamentos e Tela de Relatórios
+## Capturas de Tela do APP - Funcionalidades
 
-## Funcionalidades
 
 - Integração em tempo real entre usuários
 - Transparência e confiança na comunicação
