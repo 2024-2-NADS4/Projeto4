@@ -55,6 +55,9 @@ python encontrarCuidadorIdeal.py
 ```
 </b>
 
+### Criptografia
+Foi implementada no projeto criptografia MD5 (Message-Digest Algorithm 5), um algoritmo de criptografia que transforma um arquivo em uma sequência única de caracteres. Foi implementada no arquivo **`inputs.py`**, com o objetivo de tornar mais seguro o cadastro de senha de cuidadores e idosos no banco de dados.
+
 ## Como o Algoritmo Funciona
 
 ### 1. Codificação dos Dados
@@ -67,11 +70,6 @@ Para garantir que os dados possam ser processados pelo modelo de aprendizado de 
 O algoritmo escolhido para a recomendação dos cuidadores foi o k-Nearest Neighbors. Esse algoritmo funciona encontrando os vizinhos mais próximos de um ponto de dados em um espaço vetorial. No contexto deste sistema:
 - Cada cuidador e idoso são representados como pontos em um espaço multidimensional, onde cada dimensão corresponde a uma característica (como mobilidade, deficiência, etc.).
 - O kNN compara as distâncias entre o ponto representando o idoso e todos os pontos dos cuidadores. O cuidador mais próximo (com a menor distância) é o recomendado.
-
-### Por que kNN foi escolhido?
-O kNN é um algoritmo simples, eficaz e amplamente utilizado para problemas de recomendação e classificação. Ele é intuitivo e fácil de implementar, além de não exigir um treinamento complexo. Para o caso específico de recomendação de cuidadores para idosos, o kNN é uma escolha apropriada, pois os dados são relativamente pequenos e não exigem técnicas mais complexas, como redes neurais. Além disso, a ideia de encontrar o "vizinho mais próximo" (o cuidador mais adequado) faz sentido dentro do contexto de características semelhantes.
-
-O kNN é especialmente útil quando não há uma relação linear clara entre as variáveis de entrada, como no caso de características como "mobilidade", "deficiência", "obesidade", etc. O algoritmo pode capturar essas complexidades de maneira eficaz.
 
 ## Busca pelo Cuidador Ideal
 Quando um idoso é selecionado, o sistema realiza a codificação de suas características, alinha os dados entre o idoso e os cuidadores (para garantir que ambos tenham o mesmo formato de dados) e, em seguida, utiliza o kNN para calcular a "distância" entre o idoso e todos os cuidadores. O cuidador com a menor distância é selecionado como a recomendação.
