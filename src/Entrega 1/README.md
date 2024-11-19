@@ -5,34 +5,55 @@ O programa desenvolvido tem como objetivo recomendar cuidadores ideais para idos
 
 O sistema também permite que o usuário escolha um idoso específico para o qual será feita a recomendação personalizada de um cuidador.
 
-## Estrutura e Fluxo do Programa
+## Execução do Programa 
 
-### 1. Carregamento de Dados
-O sistema começa carregando dados do banco de dados SQLite (`familycare.db`), onde estão armazenadas informações sobre os idosos e cuidadores. Essas informações incluem características relevantes, como:
+<b> 1. Clone o repositório do GitHub para o seu computador utilizando o comando:  
+```bash
+git clone https://github.com/2024-2-NADS4/Projeto4.git
+```
+</b>
 
-- **Idosos**: Nome, mobilidade, obesidade, deficiência, dificuldades visuais, auditivas e condições médicas.
-- **Cuidadores**: Nome, habilidades e características de cuidados em relação às mesmas condições dos idosos.
+<b> 2. Navegue até a pasta **`Projeto4/src/Entrega 1`** e abra-a no Visual Studio Code. </b>
 
-**Função**: `carregar_dados()`
-- Carrega os dados das tabelas `Idosos` e `Cuidadores` do banco de dados e os converte em DataFrames do Pandas para processamento posterior.
+<b> 3. Instale a versão mais recente do Python através do link **`https://www.python.org/downloads/`** e executando o arquivo baixado. </b>
 
-### 2. Recomendação de Cuidador
-Quando um idoso é selecionado, o programa utiliza um algoritmo de k-Nearest Neighbors (kNN) para encontrar o cuidador mais adequado, comparando as características do idoso com aquelas dos cuidadores.
+<b> 4. Instale as bibliotecas necessárias, executando o seguinte comando no terminal:
+```bash
+pip install pandas scikit-learn faker
+```
+</b>
 
-**Função**: `recomendar_cuidador(idoso_dados, cuidadores_df)`
-- Codifica as características dos cuidadores e do idoso selecionado em variáveis numéricas, usando a técnica de *one-hot encoding* (ou codificação binária).
-- Aplica o algoritmo de kNN para encontrar o cuidador que mais se assemelha ao idoso, ou seja, o cuidador cujas características são mais próximas (no espaço vetorial) das do idoso.
-- O kNN retorna o cuidador mais próximo baseado nas características codificadas.
+<b> 5. Execute o arquivo inserirDados.py para popular o banco de dados com 10 registros aleatórios de idosos e 10 de cuidadores:
+```bash
+python inserirDados.py
+```
+</b>
 
-### 3. Interface com o Usuário
-Através de um menu interativo, o programa solicita que o usuário escolha um idoso do banco de dados. Após a escolha, o sistema recomenda o cuidador mais adequado, exibindo o nome do cuidador ideal para aquele idoso.
+<b> 6. Para adicionar registros manualmente, execute o arquivo inputs.py:
+```bash
+python inputs.py
+```
+</b>
 
-**Função**: `exibir_menu_de_idosos()`
-- Exibe uma lista numerada de idosos cadastrados e pede ao usuário para selecionar um deles.
-- Após a escolha, a recomendação do cuidador é feita com base nas características do idoso selecionado.
+<b> 7. Para visualizar todos os dados armazenados no banco e gerar um relatório em formato Excel, execute o arquivo verificacaoDados.py:
+```bash
+python verificacaoDados.py
+```
+</b>
 
-### 4. Execução do Programa
-O programa principal é a função `realizar_matching()`, que orquestra o fluxo de carregamento dos dados, seleção do idoso e recomendação do cuidador.
+<b> 8. O arquivo Excel será criado na pasta **`Projeto4/src/Entrega 1`** com o nome **`dados_familycare`**. Abra-o para revisar os dados do banco de dados, se necessário. </b>
+
+<b> 9. Para determinar o cuidador ideal para cada idoso registrado no banco de dados, execute o arquivo algoritmoMatching.py:
+```bash
+python algoritmoMatching.py
+```
+</b>
+
+<b> 10. Para selecionar um idoso e identificar o cuidador ideal para ele, execute o arquivo encontrarCuidadorIdeal.py:
+```bash
+python encontrarCuidadorIdeal.py
+```
+</b>
 
 ## Como o Algoritmo Funciona
 
