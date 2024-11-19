@@ -107,8 +107,56 @@ Para lidar com o feedback textual e extrair informações de forma eficiente, ap
 - Retorna os dados no formato JSON, ordenados pela média de classificação em ordem decrescente.
 - Em caso de erro durante a consulta ou processamento, retorna um erro com status 500 e a descrição da exceção.- Valida se todos os dados obrigatórios estão presentes na requisição.
 
-### 4. Execução do Programa
-O programa principal para a execução do sistemaa de avaliação é o arquivo `api.py`, que orquestra o fluxo de carregamento dos dados, criando uma API via flask, onde serão imbutidos os dados.
+### Execução do Programa
+
+### 1. Instalar as Bibliotecas Necessárias
+```bash
+pip install Flask joblib scikit-learn pandas
+```
+
+### 2. Rodar o Servidor Flask
+
+Com as dependências instaladas e o banco de dados configurado, você pode rodar o servidor Flask utilizando o seguinte comando no terminal:
+
+```bash
+python api.py
+```
+
+O servidor ficará disponível no endereço http://127.0.0.1:5000/.
+
+### 3. Enviar Avaliação via Postman
+
+Com o servidor Flask em execução, você pode enviar uma requisição POST para a rota /avaliar_cuidador utilizando o Postman.
+
+Configuração do Postman:
+
+Método HTTP: POST
+
+URL: http://127.0.0.1:5000/avaliar_cuidador
+
+Cabeçalhos (Headers):
+
+Content-Type: application/json
+
+Body:
+{
+    "id_idoso": 1,
+    "id_cuidador": 2,
+    "email_idoso": "idoso@example.com",
+    "email_cuidador": "cuidador@example.com",
+    "feedback": "O cuidador foi muito atencioso e prestativo."
+}
+
+Após enviar a requisição, o feedback será classificado automaticamente pelo modelo, e a avaliação será registrada no banco de dados
+
+### 4. Consultar Cuidadores
+Você pode consultar a lista de cuidadores e suas médias de avaliação enviando uma requisição GET para a rota /cuidadores.
+
+Configuração do Postman:
+
+Método HTTP: GET
+
+URL: http://127.0.0.1:5000/cuidadores
 
 ## Como o Algoritmo Funciona
 
